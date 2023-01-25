@@ -1,3 +1,4 @@
+# Let's Slice and Dice
 # Employee Management API
 This API provides endpoints for managing employee data including getting all employees, adding a new employee, getting salary statistics for all employees, getting salary statistics for employees on contract, getting department-wise salary statistics, and deleting an employee.
 
@@ -86,6 +87,7 @@ DELETE | /employees/:id | Authorization: Bearer YOUR_TOKEN_HERE | - | Delete an 
 
 ### Author
 Fawad Khalil - [Github Profile](https://github.com/fawad-khalil)
+
 ### License
 
 
@@ -94,6 +96,44 @@ Inspiration:
 
 etc.
 
+### Good Coding Practices that should be adhered to:
+The coding practices that I think that should be adhered to are around the following non-functional requirements:
+- Maintainability
+
+    The code should be simple enough for the developers to understand, test and modify. Complex single liners and nested ternaries are big no-no most of the time and have compliance with KISS (Keep It Simple Stupid) principle. As it is said, "Any fool can write code that a computer can understand. Good programmers write code that humans can understand".
+
+- Reusability
+
+    The code should be broken down into units that they should be responsible for single purposes and can behave independently. This will result in a reusable code.
+    The classes/functions/methods should adhere to SOLID (Single Responsibility, Open for extension/Closed, Liskov Substitution, Interface seggregation, Dependancy Inversion) principle.
+
+- Interoperability
+
+    The code should be able to work with other systems easily without modifying the original code.
+- Portability
+
+    The code should be able to run on different environments and platforms, meaning that it should be containerised and encapsulated.
+- Reliability
+
+    The code should perform with minimal failures and should be able to recover from failures as soon as possible.
+- Availability
+
+    The system should be available 24/7 and the scaling and extending activities should not compromise its availability.
+- Security
+
+    The code should not expose any vulnerabilities, and authentication and authorisation should be implemented carefully throughout the code.
+
+- Extensibility
+
+    The code should be extendible without modifications easily.
+
+- Auto Deployment
+
+    The code be able to be tested, linted and deployed automatically with zero or minimum human interaction and it should be configured to be scalable without any change in the code.
+
+- Centralised resources
+
+    The resources like constants and configurations should be implemented in a reusable and centralised manner such that they can updated easily whenever required with minimum number of changes.
 
 fawad-khalil@hotmail.com
 
