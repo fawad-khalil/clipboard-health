@@ -1,0 +1,10 @@
+export const GET_EMPLOYEES_500 = 'Failed to fetch employees. Internal server error.';
+export const ADD_EMPLOYEE_201 = 'Employee added successfully.';
+export const ADD_EMPLOYEE_500 = 'Failed to add employee. Internal server error.';
+export const GET_SS_EMPLOYEE_500 = 'Error fetching salary statistics.';
+export const DELETE_EMPLOYEE_200 = 'Employee deleted successfully.'
+export const DELETE_EMPLOYEE_500 = 'Error deleting employee. Internal server error.';
+export const AUTH_FAILED = 'Authentication failed';
+export const AUTHORISATION_FAILED = 'Authorisation failed';
+export const INTERNAL_SERVER_ERROR = 'Internal server error';
+export const SIGNOUT_200 = 'Signed out';
