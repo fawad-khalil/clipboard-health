@@ -135,5 +135,9 @@ The coding practices that I think that should be adhered to are around the follo
 
     The resources like constants and configurations should be implemented in a reusable and centralised manner such that they can updated easily whenever required with minimum number of changes.
 
+- Configured to install dependencies
+
+    The code versioning system should be independent of keeping the dependencies and the dependencies should be able to be installed after cloning the code.
+
 fawad-khalil@hotmail.com
 
