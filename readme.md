@@ -51,7 +51,7 @@ The test suite should pass the following tests:
 1. Run migrations
 
     `yarn migrate:dev` OR (`yarn migrate:prod` for production mode)
-1. Seed the database
+1. Seed the database (Optional)
 
     `yarn seed:dev` OR (`yarn seed:prod` for production mode)
 1. Build and run the project using Docker Compose
