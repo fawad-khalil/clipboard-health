@@ -50,16 +50,20 @@ The test suite should pass the following tests:
 ### Running the API
 1. Run migrations
 
-    `yarn migrate:dev`
+    `yarn migrate:dev` OR (`yarn migrate:prod` for production mode)
 1. Seed the database
 
-    `yarn seed:dev`
+    `yarn seed:dev` OR (`yarn seed:prod` for production mode)
 1. Build and run the project using Docker Compose
 
     `docker-compose up --build`     
     OR
 
-    `yarn start:dev`
+    `yarn start:dev` (`yarn start:prod` for production mode)
+
+### Reverting the DB
+
+The DB can be reverted by running `yarn migrate:revert:dev` or `yarn migrate:revert:prod` or `yarn migrate:revert:test`
 
 ### API Endpoints
 Method | Endpoint | Headers | Body | Description

@@ -17,6 +17,12 @@ services:
       - redis
 
     command: ["yarn", "run", "start"]
+
+  redis:
+    image: redis
+    container_name: cache
+    expose:
+      - 6379
     # depends_on:
     #   - db
   # db:
@@ -25,8 +31,3 @@ services:
   #     - sqlite-data:/var/lib/sqlite
 # volumes:
 #   sqlite-data:
-  redis:
-    image: redis
-    container_name: cache
-    expose:
-      - 6379
